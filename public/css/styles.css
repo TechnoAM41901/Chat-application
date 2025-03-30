@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.chat-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+#messages {
+    border: 1px solid #ccc;
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.message {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.emoji {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.emoji-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.emoji-btn {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.message-box input {
+    width: 80%;
+    padding: 5px;
+}
+
+.message-box button {
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.message-box button:hover {
+    background-color: #45a049;
+}

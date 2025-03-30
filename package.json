@@ -1,0 +1,16 @@
+{
+  "name": "complex-chat-app",
+  "version": "1.0.0",
+  "description": "It is a complex application created using node, express and socket.io model",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "amar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "pug": "^3.0.3",
+    "socket.io": "^4.8.1"
+  }
+}
